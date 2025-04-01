@@ -27,3 +27,6 @@ This project uses Python, Pandas, Matplotlib, and Seaborn to analyze Titanic pas
 
 ## Next steps
 - Interactive dashboard in Google Looker Studio (in progress).
+
+## Example Visualization
+![Survival Rate by Gender](screenshot_titanic_gender_survivalrate.png)
