@@ -1,23 +1,29 @@
 # Titanic Data Analysis
 
-This project analyzes the survival rates of Titanic passengers using Python, Pandas, Matplotlib, and Seaborn.
+An exploratory data analysis of Titanic passenger data using Python to investigate survival patterns.
 
-## Contents
-- `titanic_analysis.ipynb`: Jupyter Notebook with data analysis and visualizations.
+## Overview
+This project uses Python, Pandas, Matplotlib, and Seaborn to analyze Titanic passenger survival rates. The results were exported to Excel.
+
+## Files
+- `titanic_analysis.ipynb`: Jupyter Notebook with code and visualizations.
 - `train.csv`: Input data from Kaggle.
-- `titanic_output.xlsx`: Exported results with cleaned data.
+- `titanic_output.xlsx`: Cleaned and analyzed data as an Excel file.
 
 ## Analyses
 - Survival rate by gender, class, and embarkation location.
-- Age distribution of survivors vs. non-survivors.
+- Age distribution (histogram).
 - Fare distribution (boxplot).
-- Adjustment of missing age values ​​using the median.
+- Median correction for missing age values.
 
-## Findings
-- Women and first-class passengers had higher survival rates.
-- More expensive tickets correlate with survival.
-- Embarkation location influences survival (e.g., Cherbourg is higher).
+## Key Findings
+- Women and first-class passengers had the highest survival rates.
+- Higher fares correlate with better survival chances.
+- Passengers from Cherbourg (C) survived more often than those from Southampton (S).
 
 ## Tools
-- Python, Pandas, Matplotlib, Seaborn
-- Export to Excel with Openpyxl
+- **Programming**: Python, Pandas, Matplotlib, Seaborn
+- **Export**: Openpyxl for Excel
+
+## Next steps
+- Interactive dashboard in Google Looker Studio (in progress).
