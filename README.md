@@ -33,3 +33,6 @@ This project uses Python, Pandas, Matplotlib, and Seaborn to analyze Titanic pas
 
 ## Dashboard
 [View the interactive Titanic Survival Dashboard](https://lookerstudio.google.com/reporting/76f41269-82c4-48e8-bada-490bcd891f87)
+
+## Dashboard Visualization
+![Looker Dashboard Survival Rates](screenshot_looker_dashboard_titanic_survival.png)
